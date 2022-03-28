@@ -4,10 +4,13 @@
 # Description 
 
 Kernel to kernel streaming example consisting of three compute units in a linear hardware pipeline.
+
     1) Memory read
        This Kernel reads the input vector from Global Memory and streams its output.
+       
     2) Increment
        This Kernel reads stream input, increments the value and streams to output.
+       
     3) Memory write
         This Kernel reads from its input stream and writes into Global Memory
 
