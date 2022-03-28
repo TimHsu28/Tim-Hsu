@@ -15,7 +15,9 @@ Kernel to kernel streaming example consisting of three compute units in a linear
 
 ## Streaming_free_running_k2k
 For free running kernel, user needs to specify ap_ctrl_none for return port.
-This will create the kernel without AXI lite interface. Kernel will always be in running states
+This will create the kernel without AXI lite interface. Kernel will always be in running states.
+
+
 ![image](https://user-images.githubusercontent.com/102551069/160469346-e0d95cb4-8f01-4f16-8949-36913a3d9109.png)
 
 Example of system diagram.
